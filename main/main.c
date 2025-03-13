@@ -10,7 +10,6 @@
 #include "pico/util/datetime.h"
 #include <string.h>
 #include "hardware/rtc.h"
-#include "main.h"
 
 const int TRIGGER = 16;
 const int ECHO = 17;
