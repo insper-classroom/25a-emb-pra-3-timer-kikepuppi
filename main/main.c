@@ -57,7 +57,7 @@ int main() {
     rtc_init();
     rtc_set_datetime(&dt);
     char s;
-    int p;
+    int p = '\0';
 
     while (true) {
 
